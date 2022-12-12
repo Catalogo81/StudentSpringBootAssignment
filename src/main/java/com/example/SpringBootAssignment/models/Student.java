@@ -39,7 +39,7 @@ public class Student
 
     //non-default constructor
     public Student(String name, String surname, String gender, int age, String city) {
-        this.id = id;
+        super();
         this.name = name;
         this.surname = surname;
         this.gender = gender;

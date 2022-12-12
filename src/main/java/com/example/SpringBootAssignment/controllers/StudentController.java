@@ -20,7 +20,7 @@ public class StudentController {
     }
 
     @GetMapping("/findAll")
-    public ArrayList<Student> getAllStudents()
+    public ArrayList<Student> findAllStudents()
     {
         return studentServiceImpl.findAllStudents();
     }
